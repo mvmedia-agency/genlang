@@ -22,6 +22,8 @@ return_statement: 'return' expr;
 const_assignment: 'const' IDENTIFIER '=' expr;
 var_assignment: 'let' IDENTIFIER '=' expr;
 
+member_get: '$this->'IDENTIFIER;
+
 if_expression: 'if' '(' expr ')' body;
 for_expression: 'for' '(' expr ')' body;
 
