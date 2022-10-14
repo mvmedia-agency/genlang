@@ -26,6 +26,7 @@ const_assignment: 'const' IDENTIFIER '=' expr;
 var_assignment: 'let' IDENTIFIER '=' expr;
 
 if_expression: 'if' '(' expr ')' body;
+for_expression: 'for' '(' expr ')' body;
 
 IDENTIFIER : [a-zA-Z_] [a-zA-Z0-9_]*; 
 NEWLINE : [\r\n]+ -> skip;
